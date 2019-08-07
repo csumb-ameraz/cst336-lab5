@@ -68,10 +68,10 @@ getRandomImages: function (keyword, imageCount) {
   */
   createConnection:  function() {
     var conn = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "img_gallery"
+    host: "us-cdbr-iron-east-02.cleardb.net",
+    user: "b8d487c4fd2c71",
+    password: "0c06441c",
+    database: "heroku_40f0131f81eb8a0"
   });
     return conn;
   }
